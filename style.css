@@ -56,3 +56,96 @@ body{
     transform:translateY(-3px);
     box-shadow: 0px 10px 18px rgba(0,0,0,0.3);
 }
+.banner{
+    height: 650px;
+    background-image:linear-gradient(rgba(20,32,45,0.75), rgba(20,32,45,0.75)),url(./images/hero-bg.png);
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.banner-content{
+    width: 800px;  
+}
+.heading{
+    color:#30B868;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 35px;
+}
+.banner-content {
+   width: 800px;
+}
+.heading{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-bottom: 35px;
+}
+.circle{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #30B868;
+    opacity: 100%;
+}
+.heading p{
+    font-size: 16px;
+    color: #469165; 
+}
+.banner-content h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.banner-content h1 span{
+    color: #30B868;
+    font-size: 72px;
+}
+.banner-text{
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin: 0px auto 40px;
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn{
+    background-color: #30B868;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    font-weight: semi-bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition:0.3s;
+}
+.btn-outline{
+    background: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:0.3s;
+}
+.btn-outline:hover{
+    background: white;
+    color: #1F2E3D;
+    transform: translateY(-3px);
+}
